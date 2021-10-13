@@ -1,0 +1,78 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css /> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col col-sm-5 col-xs-12">
+                                <h4 class="title">Data <span>List</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-body table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                            <tr class="active">
+                                <th>#</th>
+                                <th>Full Name</th>
+                                <th>Age</th>
+                                <th>Status</th>
+                                <th>Job Title</th>
+                                <th>Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Vincent Williamson</td>
+                                <td>31</td>
+                                <td><span class="label label-success">Active</span></td>
+                                <td>iOS Developer</td>
+                                <td><a href="#" class="btn btn-default">X</a></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Taylor Reyes</td>
+                                <td>22</td>
+                                <td><span class="label label-warning">Inactive</span></td>
+                                <td>UI/UX Developer</td>
+                                <td><a href="#" class="btn btn-default">X</a></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Justin Block</td>
+                                <td>26</td>
+                                <td><span class="label label-success">X</span></td>
+                                <td>Frontend Developer</td>
+                                <td><a href="#" class="btn btn-default">X</a></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Sean Guzman</td>
+                                <td>26</td>
+                                <td><span class="label label-danger">Blocked</span></td>
+                                <td>Web Designer</td>
+                                <td><a href="#" class="btn btn-default">X</a></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Keith Carter</td>
+                                <td>20</td>
+                                <td><span class="label label-success">Active</span></td>
+                                <td>Graphic Designer</td>
+                                <td><a href="#" class="btn btn-default">X</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
